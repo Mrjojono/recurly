@@ -1,4 +1,3 @@
-import "@/global.css";
 import { Text, View } from "react-native";
 
 import { Link } from "expo-router";
@@ -17,6 +16,10 @@ export default function App() {
       >
         Go to Onboarding
       </Link>
+      <Link href="/(auth)/sign-in">Go to Sign In</Link>
+      <Link href="/(auth)/sign-out">Go to Sign Out</Link>
+      <Link href="/">Go to Home</Link>
+      <Link href="/subscriptions">Go to Subscriptions</Link>
     </View>
   );
 }

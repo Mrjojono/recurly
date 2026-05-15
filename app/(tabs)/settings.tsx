@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const ComponentName = () => {
+const Settings = () => {
   return (
     <View>
       <Text>first</Text>
@@ -9,4 +9,4 @@ const ComponentName = () => {
   );
 };
 
-export default ComponentName;
+export default Settings;
