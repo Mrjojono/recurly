@@ -3,7 +3,7 @@ import {View,Text,TouchableOpacity} from "react-native";
 const ListHeading = ({title} : ListHeadingProps) => {
     return (
        <View className="list-head">
-           <Text className="lisy-title">{title}</Text>
+           <Text className="list-title">{title}</Text>
             <TouchableOpacity className="list-action">
             <Text className="list-action-text">
                     View All

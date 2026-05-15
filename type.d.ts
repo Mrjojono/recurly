@@ -54,4 +54,4 @@ declare global {
   }
 }
 
-export {};
+export {SubscriptionCardProps, UpcomingSubscriptionCardProps, ListHeadingProps};
