@@ -13,6 +13,11 @@ import {useState} from "react";
 import FlatList = Animated.FlatList;
 
 const SafeAreaView = styled(RNSafeAreaView);
+/**
+ * Renders the subscriptions home screen including header, balance card, an "Upcoming" horizontal list, and an "All subscriptions" vertical list while tracking which subscription card is expanded.
+ *
+ * @returns The React element for the subscriptions home screen.
+ */
 export default function App() {
     const [expandedSubscribeId, setExpandedSubscribeId] = useState<string | null>(null);
     return (

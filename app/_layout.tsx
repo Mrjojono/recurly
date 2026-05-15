@@ -3,6 +3,11 @@ import "@/global.css";
 import {useFonts} from "expo-font";
 import {useEffect} from "react";
 
+/**
+ * Application root layout that loads PlusJakartaSans font variants and hides the Expo splash screen once the fonts are ready.
+ *
+ * @returns The app's root `Stack` component with headers disabled, or `null` while fonts are loading.
+ */
 export default function RootLayout() {
     const [fontsLoaded] = useFonts({
         "sans-regular": require("../assets/fonts/PlusJakartaSans-Regular.ttf"),
