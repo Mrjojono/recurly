@@ -23,3 +23,12 @@ export const formatStatusLabel = (value?: string): string => {
     if (!value) return "Unknown";
     return value.charAt(0).toUpperCase() + value.slice(1);
 };
+
+export const getMonthsRemaining = (renewalDate: string): number => {
+    const now = new Date();
+    const renewal = new Date(renewalDate);
+    const months =
+        (renewal.getFullYear() - now.getFullYear()) * 12 +
+        (renewal.getMonth() - now.getMonth());
+    return Math.max(0, months);
+};

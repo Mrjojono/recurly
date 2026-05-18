@@ -151,7 +151,7 @@
     }
 
     .sub-card {
-        @apply rounded-2xl border border-border p-4;
+        @apply rounded-bl-3xl rounded-tr-3xl border border-border p-4;
     }
 
     .sub-card-expanded {
@@ -159,7 +159,7 @@
     }
 
     .sub-head {
-        @apply flex-row items-center py-2;
+        @apply flex-row justify-between items-center py-2;
     }
 
     .sub-main {
@@ -167,7 +167,7 @@
     }
 
     .sub-icon {
-        @apply size-16 rounded-lg;
+        @apply size-10 ;
     }
 
     .sub-copy {
@@ -203,7 +203,7 @@
     }
 
     .sub-row {
-        @apply flex-row items-center justify-between gap-3;
+        @apply flex-row items-center  justify-between gap-3;
     }
 
     .sub-row-copy {
@@ -219,7 +219,7 @@
     }
 
     .sub-cancel {
-        @apply mt-2 items-center rounded-full bg-primary py-4;
+        @apply mt-2 items-center rounded-full bg-primary py-3;
     }
 
     .sub-cancel-disabled {
@@ -255,11 +255,11 @@
     }
 
     .auth-logo-wrap {
-        @apply mb-7 flex-row items-center gap-3;
+        @apply mb-20 flex-row items-center gap-3;
     }
 
     .auth-logo-mark {
-        @apply relative size-14 items-center justify-center rounded-2xl bg-accent;
+        @apply relative  size-14 items-center justify-center rounded-2xl bg-accent;
     }
 
     .auth-logo-mark-text {
@@ -283,7 +283,7 @@
     }
 
     .auth-card {
-        @apply mt-8 rounded-3xl border border-border bg-card p-5;
+        @apply mt-8 rounded-2xl gap-4 border-2 w-90 border-border bg-card p-5;
     }
 
     .auth-form {
@@ -299,7 +299,7 @@
     }
 
     .auth-input {
-        @apply rounded-2xl border border-border bg-background px-4 py-4 text-base font-sans-medium text-primary;
+        @apply rounded-2xl border border-border bg-background pl-2 px-5 py-4 text-base font-sans-medium text-primary;
     }
 
     .auth-input-error {
@@ -323,7 +323,7 @@
     }
 
     .auth-button-text {
-        @apply text-base font-sans-bold text-primary;
+        @apply text-base  font-sans-bold text-white;
     }
 
     .auth-secondary-button {
